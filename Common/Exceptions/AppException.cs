@@ -20,7 +20,7 @@ namespace Common.Exceptions
         {
 
         }
-        public AppException(ExceptionCode code, string message, IEnumerable<ErrorDetail>? errorDetails = null) : base("")
+        public AppException(ExceptionCode code, string message, IEnumerable<ErrorDetail>? errorDetails = null)
         {
             Code = code;
             Errors = new List<string>() { message };
