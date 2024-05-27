@@ -3,6 +3,7 @@ public static class ContextItems
 {
     public const string UserId = "UserId";
     public const string Username = "Username";
+    public const string Permissions = "Permissions";
     //public const string Fullname = "Fullname";
     //public const string ProfileCode = "ProfileCode";
     //public const string Email = "Email";
